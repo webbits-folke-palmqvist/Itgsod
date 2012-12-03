@@ -28,8 +28,12 @@ if($kurs){
 				font-family: Arial;
 			}
 
+			form {
+				font-size: 20px;
+			}
+
 			.center {
-				width: 200px;
+				width: 400px;
 				margin-right: auto;
 				margin-left: auto;
 			}
@@ -69,7 +73,7 @@ if($kurs){
 	</head>
 	<body>
 		<div class="center">
-			<h3>Vilken kurs är du intresserad utav?</h3>
+			<h1>Vilket program är du intresserad utav?</h1>
 			<form action="index.php" method="POST">
 				<input type="radio" name="kurs" value="el">IT EL<br />
 				<input type="radio" name="kurs" value="teknik">IT TEKNIK<br />
